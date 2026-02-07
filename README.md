@@ -74,7 +74,7 @@ A lightweight, browser-based CGPA (Cumulative Grade Point Average) calculator de
 3. **Add Courses**
    - Click "Add Course" within a semester
    - Fill in:
-     - Course Name (e.g., "Mathematics 101")
+     - Course Name (e.g., "Digital Electronics I")
      - Grade (select from dropdown)
      - Credits (e.g., 3, 4, 3.5)
 
