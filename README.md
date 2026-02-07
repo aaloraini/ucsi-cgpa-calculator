@@ -2,7 +2,13 @@
 
 A lightweight, browser-based CGPA (Cumulative Grade Point Average) calculator designed specifically for UCSI University students with the official university branding and custom grading scale.
 
-## 📚 Official Grading System
+## � Quick Start
+
+**Live Calculator:** [https://aaloraini.github.io/ucsi-cgpa-calculator/](https://aaloraini.github.io/ucsi-cgpa-calculator/)
+
+**GitHub Repository:** [https://github.com/aaloraini/ucsi-cgpa-calculator](https://github.com/aaloraini/ucsi-cgpa-calculator)
+
+## �📚 Official Grading System
 
 **Source:** UCSI University Students Handbook for Undergraduate Programmes (April 2025)  
 **Reference:** Table 13.3: Grade Legend and GPA (January 2024 onwards)
@@ -46,9 +52,9 @@ A lightweight, browser-based CGPA (Cumulative Grade Point Average) calculator de
 
 ## 🌐 Live Demo
 
-**Access the calculator here:** `https://YOUR-USERNAME.github.io/ucsi-cgpa-calculator/`
+**Access the calculator here:** **[https://aaloraini.github.io/ucsi-cgpa-calculator/](https://aaloraini.github.io/ucsi-cgpa-calculator/)**
 
-*(Link will be active after GitHub Pages deployment)*
+✅ **Now Live!** Share this link with your friends!
 
 ---
 
@@ -149,26 +155,30 @@ The creators of this tool are not responsible for any discrepancies between calc
 
 ---
 
-## 🚀 Deployment (GitHub Pages)
+## 🚀 Deployment
 
-This project is configured for easy deployment on GitHub Pages:
+This project is deployed on GitHub Pages and is currently live!
 
-1. **Push to GitHub:**
+**Repository:** [https://github.com/aaloraini/ucsi-cgpa-calculator](https://github.com/aaloraini/ucsi-cgpa-calculator)  
+**Live Site:** [https://aaloraini.github.io/ucsi-cgpa-calculator/](https://aaloraini.github.io/ucsi-cgpa-calculator/)
+
+### Making Updates
+
+To update the live site:
+
+1. **Make your changes** to the files
+2. **Commit changes:**
    ```bash
-   git init
    git add .
-   git commit -m "Initial commit: UCSI CGPA Calculator"
-   git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/ucsi-cgpa-calculator.git
-   git push -u origin main
+   git commit -m "Description of your changes"
    ```
+3. **Push to GitHub:**
+   ```bash
+   git push origin main
+   ```
+4. **Wait 1-2 minutes** for GitHub Pages to rebuild
 
-2. **Enable GitHub Pages:**
-   - Go to your repository settings
-   - Navigate to "Pages" section
-   - Select "main" branch as source
-   - Click "Save"
-   - Your site will be live at: `https://YOUR-USERNAME.github.io/ucsi-cgpa-calculator/`
+The live site will automatically update!
 
 ---
 
