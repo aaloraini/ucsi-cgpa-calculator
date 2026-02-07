@@ -2,19 +2,29 @@
 
 A lightweight, browser-based CGPA (Cumulative Grade Point Average) calculator designed specifically for UCSI University students with the official university branding and custom grading scale.
 
-## Features
+## 📚 Official Grading System
 
-✨ **Custom Grading Scale**
-- A+ = 4.00
-- A = 3.75
-- A- = 3.50
-- B+ = 3.33
-- B = 3.00
-- B- = 2.75
-- C+ = 2.50
-- C = 2.00
-- D = 1.00
-- F = 0.00
+**Source:** UCSI University Students Handbook for Undergraduate Programmes (April 2025)  
+**Reference:** Table 13.3: Grade Legend and GPA (January 2024 onwards)
+
+| Grade | Marks (%) | GPA  | Level of Achievement |
+|-------|-----------|------|---------------------|
+| A+    | 90-100    | 4.00 | Excellent           |
+| A     | 80-89     | 3.75 | High Distinction    |
+| A-    | 75-79     | 3.67 | Distinction         |
+| B+    | 70-74     | 3.33 | Very Good           |
+| B     | 60-69     | 3.00 | Good                |
+| C+    | 55-59     | 2.50 | Merit               |
+| C     | 50-54     | 2.00 | Satisfactory        |
+| C-    | 45-49     | 1.50 | Conditional Pass    |
+| D     | 40-44     | 1.00 | Conditional Pass    |
+| F     | 0-39      | 0.00 | Fail                |
+
+> ⚠️ **Important:** This calculator uses the official UCSI University grading system as specified in the Students Handbook for Undergraduate Programmes (April 2025). Always verify your official CGPA with the university registrar.
+
+---
+
+## Features
 
 📊 **Semester-wise Tracking**
 - Add unlimited semesters
@@ -25,13 +35,14 @@ A lightweight, browser-based CGPA (Cumulative Grade Point Average) calculator de
 - Add/remove courses dynamically
 - Input course name, grade, and credit hours
 - Variable credit hours per course
+- All 10 official UCSI letter grades supported (A+ to F)
 
 📈 **Real-time Statistics**
 - Current cumulative CGPA
 - Total semesters
 - Total courses
 - Total credits completed
-- Grade classification (Excellent, Good, etc.)
+- Official UCSI grade legend with achievement levels
 
 ## 🌐 Live Demo
 
@@ -103,17 +114,17 @@ Cumulative CGPA = Σ(All Grade Points × Credits) ÷ Total Credits (all semester
 
 **Cumulative CGPA** = (35.07 + 24.00) ÷ (10 + 7) = **3.48**
 
-## Grade Classifications
+## CGPA Interpretation
 
-- **3.75 - 4.00**: A / Excellent
-- **3.50 - 3.74**: A- / Very Good
-- **3.33 - 3.49**: B+ / Good
-- **3.00 - 3.32**: B / Above Average
-- **2.75 - 2.99**: B- / Average
-- **2.50 - 2.74**: C+ / Below Average
-- **2.00 - 2.49**: C / Pass
-- **1.00 - 1.99**: D / Poor
-- **0.00 - 0.99**: F / Fail
+Based on the official UCSI grading system:
+
+- **3.67 - 4.00**: Distinction to Excellent
+- **3.00 - 3.66**: Good to Very Good
+- **2.00 - 2.99**: Satisfactory to Merit
+- **1.00 - 1.99**: Conditional Pass
+- **0.00 - 0.99**: Fail
+
+> **Note:** Individual course grades and their achievement levels are defined in Table 13.3 of the Students Handbook.
 
 ## 🎨 UCSI University Branding
 
@@ -124,6 +135,17 @@ This calculator features the official UCSI University brand colors:
 - **White** - Represents integrity
 
 The design incorporates these colors throughout the interface, creating a cohesive and professional look that reflects UCSI's identity.
+
+## ⚠️ Disclaimer
+
+This is an **unofficial tool** created for UCSI University students to estimate their CGPA. While it uses the official grading system from the Students Handbook for Undergraduate Programmes (April 2025), it should be used for reference purposes only. 
+
+**Always verify your official CGPA with:**
+- UCSI University Registrar's Office
+- Your official academic transcript
+- UCSI Student Portal
+
+The creators of this tool are not responsible for any discrepancies between calculated and official CGPA values.
 
 ---
 
@@ -169,16 +191,24 @@ This project is configured for easy deployment on GitHub Pages:
 - No data sent to servers
 - Lightweight (~20KB total)
 - UCSI University branded interface
+- Official grading system from Students Handbook (April 2025)
 
 ## File Structure
 
 ```
 windsurf-project/
 ├── index.html          # Main HTML structure
-├── styles.css          # Complete styling
-├── script.js           # Calculator logic
+├── styles.css          # Complete styling with UCSI branding
+├── script.js           # Calculator logic with official grading scale
+├── .gitignore          # Git ignore file
 └── README.md           # This file
 ```
+
+## References
+
+- **UCSI University Students Handbook for Undergraduate Programmes (April 2025)**
+  - Table 13.3: Grade Legend and GPA (January 2024 onwards)
+- **UCSI University Official Website:** [www.ucsiuniversity.edu.my](https://www.ucsiuniversity.edu.my)
 
 ## Tips
 

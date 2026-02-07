@@ -1,14 +1,17 @@
+// UCSI University Official Grading Scale
+// Source: Students Handbook for Undergraduate Programmes (April 2025)
+// Table 13.3: Grade Legend and GPA (January 2024 onwards)
 const gradePoints = {
-    'A+': 4.0,
-    'A': 3.75,
-    'A-': 3.5,
-    'B+': 3.33,
-    'B': 3.0,
-    'B-': 2.75,
-    'C+': 2.5,
-    'C': 2.0,
-    'D': 1.0,
-    'F': 0.0
+    'A+': 4.0,   // 90-100 | Excellent
+    'A': 3.75,   // 80-89  | High Distinction
+    'A-': 3.67,  // 75-79  | Distinction
+    'B+': 3.33,  // 70-74  | Very Good
+    'B': 3.0,    // 60-69  | Good
+    'C+': 2.5,   // 55-59  | Merit
+    'C': 2.0,    // 50-54  | Satisfactory
+    'C-': 1.5,   // 45-49  | Conditional Pass
+    'D': 1.0,    // 40-44  | Conditional Pass
+    'F': 0.0     // 0-39   | Fail
 };
 
 let semesterCounter = 0;
@@ -204,14 +207,16 @@ function calculateCGPA() {
 }
 
 function getGradeFromCGPA(cgpa) {
-    if (cgpa >= 3.75) return 'A / Excellent';
-    if (cgpa >= 3.5) return 'A- / Very Good';
-    if (cgpa >= 3.33) return 'B+ / Good';
-    if (cgpa >= 3.0) return 'B / Above Average';
-    if (cgpa >= 2.75) return 'B- / Average';
-    if (cgpa >= 2.5) return 'C+ / Below Average';
-    if (cgpa >= 2.0) return 'C / Pass';
-    if (cgpa >= 1.0) return 'D / Poor';
+    // Based on UCSI Official Grade Legend
+    if (cgpa >= 4.0) return 'A+ / Excellent';
+    if (cgpa >= 3.75) return 'A / High Distinction';
+    if (cgpa >= 3.67) return 'A- / Distinction';
+    if (cgpa >= 3.33) return 'B+ / Very Good';
+    if (cgpa >= 3.0) return 'B / Good';
+    if (cgpa >= 2.5) return 'C+ / Merit';
+    if (cgpa >= 2.0) return 'C / Satisfactory';
+    if (cgpa >= 1.5) return 'C- / Conditional Pass';
+    if (cgpa >= 1.0) return 'D / Conditional Pass';
     if (cgpa > 0) return 'F / Fail';
     return '-';
 }

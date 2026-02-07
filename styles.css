@@ -538,6 +538,46 @@ body {
     transition: all 0.2s ease;
 }
 
+.handbook-ref {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    padding: 0.75rem;
+    background: var(--background);
+    border-left: 3px solid var(--ucsi-blue);
+    border-radius: 0.25rem;
+    line-height: 1.6;
+}
+
+.footer {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, var(--ucsi-blue) 0%, var(--ucsi-red) 100%);
+    border-radius: var(--radius);
+    color: white;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.footer-text strong {
+    color: var(--ucsi-yellow);
+    font-weight: 700;
+}
+
+.footer-disclaimer {
+    font-size: 0.75rem;
+    opacity: 0.85;
+    font-style: italic;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 1rem;
@@ -554,5 +594,10 @@ body {
     
     .cgpa-display {
         font-size: 2.5rem;
+    }
+    
+    .footer {
+        padding: 1.5rem;
+        margin-top: 2rem;
     }
 }
