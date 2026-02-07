@@ -206,7 +206,7 @@ The live site will automatically update!
 ## File Structure
 
 ```
-windsurf-project/
+ucsi-cgpa-calculator/
 ├── index.html          # Main HTML structure
 ├── styles.css          # Complete styling with UCSI branding
 ├── script.js           # Calculator logic with official grading scale
