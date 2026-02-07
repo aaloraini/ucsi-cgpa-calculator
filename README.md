@@ -220,16 +220,28 @@ windsurf-project/
 ## Future Enhancements (v2)
 
 Potential features for future versions:
-- Local storage to save your data
-- Export/import functionality
-- Grade distribution charts
-- Target GPA calculator
-- Semester comparison tools
+- Local storage to save calculator state
+- Export data as JSON
+- Import previously saved data
+- Clear all data option with confirmation
 
-## License
-
-Free to use for personal and educational purposes.
+**Additional Utilities**
+- Print-friendly view
+- PDF export of transcript summary
+- Semester comparison tool
 
 ---
 
-**Made with ❤️ for university students**
+## 📄 License & Copyright
+
+**Copyright © 2026 Abdulhakim Aloraini**
+
+This project is free to use for personal and educational purposes by UCSI University students and the academic community.
+
+### Author
+**Abdulhakim Aloraini**  
+Created for UCSI University students
+
+---
+
+**Made with ❤️ for UCSI University students**
