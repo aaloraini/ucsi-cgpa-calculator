@@ -46,9 +46,8 @@ A lightweight, browser-based CGPA (Cumulative Grade Point Average) calculator de
 
 ## 🌐 Live Demo
 
-**Access the calculator here:** `https://YOUR-USERNAME.github.io/ucsi-cgpa-calculator/`
+**Access the calculator here:** `[https://YOUR-USERNAME.github.io/ucsi-cgpa-calculator/](https://aaloraini.github.io/ucsi-cgpa-calculator/)`
 
-*(Link will be active after GitHub Pages deployment)*
 
 ---
 
